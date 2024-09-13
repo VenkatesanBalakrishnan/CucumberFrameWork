@@ -1,0 +1,14 @@
+package interfaceDemo;
+
+public interface FatherHouse {
+	
+	int money=10;
+	
+	public void audiCar()
+	{
+		
+	}
+	
+	
+
+}

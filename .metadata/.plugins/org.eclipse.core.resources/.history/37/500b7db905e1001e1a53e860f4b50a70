@@ -1,0 +1,20 @@
+package practice;
+
+public class ArrayDemo {
+	
+	int arr[]= {22,33,45,78,76};
+	
+	public void printArray()
+	{
+		System.out.println(arr);
+		System.out.println(3);
+		System.out.println();
+	}
+	
+	public static void main(String[] args) {
+		
+		ArrayDemo a = new ArrayDemo();
+		a.printArray();
+	}
+
+}

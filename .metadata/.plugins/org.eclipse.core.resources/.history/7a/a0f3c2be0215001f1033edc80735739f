@@ -1,0 +1,25 @@
+package list;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+	
+	public static void main(String[] args) {
+		
+		LinkedList<Object> L1= new LinkedList<>();
+		
+		L1.add("Hello Good Evening");
+		L1.add(null);
+		L1.add("Right Turn");
+		L1.add(null);
+		L1.add(45);
+		L1.add(11);
+		
+		System.out.println(L1);
+		L1.add(2, "Hope");
+		System.out.println(L1);
+		System.out.println(L1.contains("pavi"));
+		
+	}
+
+}

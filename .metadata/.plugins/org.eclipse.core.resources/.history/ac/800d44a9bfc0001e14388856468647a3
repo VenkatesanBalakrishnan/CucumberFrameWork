@@ -1,0 +1,31 @@
+package practiceAtOffice;
+
+public class LoopsDemo {
+	
+	int num =1;
+	
+	public void oddEvenCheck()
+	{
+		while(num>=100)
+		{
+			if(num%2==00)
+			{
+				System.out.println(num + "  Is an Even Number");
+			}
+			else
+			{
+				System.out.println(num + " Is an Odd Number");
+			}
+			num++;
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		LoopsDemo l = new LoopsDemo();
+		l.oddEvenCheck();
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerLoginClass" project="CucumberFrameWork" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="RunnerClass.RunnerLoginClass" time="0.071">
+    <testsuite name="Grouping feature" time="0.071">
+      <testcase name="Background scenario" classname="Grouping feature" time="0.059"/>
+      <testcase name="Regression scenario" classname="Grouping feature" time="0.005"/>
+      <testcase name="Smoke scenario" classname="Grouping feature" time="0.002"/>
+      <testcase name="Sanity scenario" classname="Grouping feature" time="0.003"/>
+      <testcase name="RegressionSanity scenario" classname="Grouping feature" time="0.002"/>
+    </testsuite>
+  </testsuite>
+</testrun>

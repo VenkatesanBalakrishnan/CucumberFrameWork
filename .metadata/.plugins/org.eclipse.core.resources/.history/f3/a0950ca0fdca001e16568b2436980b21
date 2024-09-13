@@ -1,0 +1,15 @@
+package practiceAtOffice;
+
+public class VenHouse {
+	
+	public static void main(String[]args)
+	{
+		VicHouse v = new VicHouse();
+		
+	System.out.println(v.gettingAmt());;
+		
+	
+		
+	}
+
+}

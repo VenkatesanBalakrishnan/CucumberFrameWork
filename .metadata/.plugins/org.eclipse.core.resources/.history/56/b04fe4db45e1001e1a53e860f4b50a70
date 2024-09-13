@@ -1,0 +1,22 @@
+package practice;
+
+public class SonHouse {
+	
+	public void KtmBike()
+	{
+		System.out.println("This is Son's KTM Bike");
+		
+	}
+	public void unicornBike()
+	{
+		System.out.println("This is Son's Unicorn Bike");
+	}
+	
+	public static void main(String[] args) {
+		
+		SonHouse s = new SonHouse();
+		s.KtmBike();
+		s.unicornBike();
+	}
+
+}

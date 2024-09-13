@@ -1,0 +1,17 @@
+package practiceAtOffice;
+
+public class FriendHouse {
+	
+	private int lockerAmt=500;
+	
+	public int getLocketAmt()
+	{
+		return lockerAmt;
+	}
+	
+	public void setLocketAmt(int lockerAmt)
+	{
+		this.lockerAmt=lockerAmt;
+	}
+
+}

@@ -1,0 +1,63 @@
+package list;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+	
+	public static void main(String[] args) {
+		
+		LinkedList<Object> L1= new LinkedList<>();
+		
+		LinkedList<Object> L2= new LinkedList<>();
+		
+		L1.add("Hello Good Evening");
+		L1.add(null);
+		L1.add("Right Turn");
+		L1.add(null);
+		L1.add(45);
+		L1.add(11);
+		
+		System.out.println(L1);
+		L1.add(2, "Hope");
+		System.out.println(L1);
+		System.out.println(L1.contains("pavi"));
+		L1.indexOf(null);
+		L1.lastIndexOf(null);
+		L1.set(2, "Pablo");
+		L1.isEmpty();
+		L1.get(1);
+		L1.remove(2);
+		L1.remove("Right Turn");
+		L1.size();
+		L2.addAll(L1);
+		L2.removeAll(L1);
+		L2 = (LinkedList) L1.clone();
+		L2.clear();
+		Object[] arr = L1.toArray();
+		
+		for(int i=0; i<arr.length;i++)
+		{
+			System.out.println(arr[i]);
+		}
+		
+		for(Object k : arr)
+		{
+			System.out.println(k);
+		}
+		
+		System.out.println("Iterating list using normal for loop and Enhanced");
+		
+		for(int i=0; i<L1.size();i++)
+		{
+			System.out.println(L1.get(i));
+		}
+		
+		for(Object k : L1)
+		{
+			System.out.println(k);
+		}
+		
+		
+	}
+
+}

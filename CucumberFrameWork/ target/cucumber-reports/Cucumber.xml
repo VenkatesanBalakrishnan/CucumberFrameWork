@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="51.78" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Gmail Login Feature" name="Login as a invalid user and verify Error message" time="51.663">
+<system-out><![CDATA[
+Given Launch Gmail Application..............................................passed
+When Enter the invalid "mnbjfhdxcchgkdy"....................................passed
+And Click on "Next" button..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

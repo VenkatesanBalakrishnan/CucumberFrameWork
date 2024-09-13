@@ -1,0 +1,56 @@
+package SeleniumJava;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BasicMethods {
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+		WebDriverManager.edgedriver().setup();
+		
+		WebDriver driver = new EdgeDriver();
+		
+		driver.navigate().to("https://accounts.google.com/");
+		driver.manage().window().maximize();
+		
+		WebElement txtEmail = driver.findElement(By.xpath("//input[@id='identifierId']"));
+		
+		txtEmail.sendKeys("venkateshkrish1996@gmail.com");
+		
+		WebElement btnNext = driver.findElement(By.cssSelector("div[id='identifierNext']"));
+		
+		btnNext.click();
+		
+		Thread.sleep(3000);
+		
+WebElement txtErrorMsg =driver.findElement(By.xpath("//div[@class='Ekjuhf Jj6Lae']"));
+
+String txtmsg = txtErrorMsg.getText();
+
+System.out.println(txtmsg);
+
+if(txtmsg.equals("Couldn’t find your Google Account"))
+
+System.out.println("Wrong Email ID");
+
+else {
+	System.out.println("Next page of login");
+}
+		
+		
+	
+		
+		
+	}
+
+
+
+				
+	}
+
+

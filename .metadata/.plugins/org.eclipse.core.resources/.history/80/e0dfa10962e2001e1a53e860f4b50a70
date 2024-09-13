@@ -1,0 +1,12 @@
+package abstractDemo;
+
+public abstract class FatherHouse {
+	
+	public void audiCar();
+	
+	public void inovaCar()
+	{
+		System.out.println("This is Father's InvovaCar");
+	}
+
+}

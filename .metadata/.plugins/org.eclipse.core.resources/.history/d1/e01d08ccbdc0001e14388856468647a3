@@ -1,0 +1,58 @@
+package practiceAtOffice;
+
+public class LoopsDemo {
+	
+	int num1=1;
+	
+	public void printNumber()
+	{
+		while(num1<=10)
+		{
+			System.out.println(num1);
+			num1++;
+		}}
+		public void printNumberDo()
+		{
+		
+		do
+			
+			{
+				System.out.println(num1);
+				num1++;
+			}while(num1<=25);
+	}
+		
+		public void printNumberFor()
+		{
+		
+		for(int num2 = 1;num2<=10;num2++)
+		{
+			System.out.println(num2);
+		}
+		}
+		
+		
+		
+		
+		
+		public void printTable()
+		{
+		
+		while(num1<=10)
+		{
+			System.out.println(num1);
+			num1++;
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		LoopsDemo l = new LoopsDemo();
+		//l.printNumber();
+		//l.printNumberDo();
+		//l.printNumberFor();
+		l.printTable();
+		
+	}
+
+}

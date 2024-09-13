@@ -1,0 +1,19 @@
+package practiceAtOffice;
+
+public class ArrayDemo {
+	
+	int arr[]= {22,35,64,43,89};
+	
+	
+	public void printArray()
+	{
+		System.out.println(arr);// Throw address
+		System.out.println(arr[2]);//64
+		System.out.println(arr[6]);
+	}
+
+	public static void main(String[] args) {
+		ArrayDemo a = new ArrayDemo();
+		a.printArray();
+	}
+}

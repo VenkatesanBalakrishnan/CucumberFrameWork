@@ -1,0 +1,19 @@
+package interfaceDemo;
+
+public abstract class FatherHouse {
+	
+	int money=10;
+	
+	
+	
+	public abstract void invoCar();
+	
+	public  void audiCar()
+	{
+		System.out.println("This is Father's Audi Car");
+	}
+	
+	
+	
+
+}

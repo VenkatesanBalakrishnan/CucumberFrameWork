@@ -1,0 +1,38 @@
+package map;
+
+import java.util.Collection;
+import java.util.LinkedHashMap;
+import java.util.Set;
+
+public class LinkedHasMapDemo {
+	
+	public static void main(String[] args) {
+		
+		LinkedHashMap<String, Integer> L1 = new LinkedHashMap<>();
+		
+		L1.put("Tamil", 99);
+		L1.put("English", 50);
+		L1.put("Maths", 60);
+		L1.put("Computer Scince", 60);
+		L1.put(null, null);
+		L1.put("English", 56);
+		
+		System.out.println(L1);
+		
+		Set<String> KS = L1.keySet();
+		
+		for(String k : KS)
+		{
+			System.out.println(k);
+		}
+		
+		Collection<Integer> VL = L1.values();
+		
+		for(Integer k : VL)
+		{
+			System.out.println(k);
+		}
+		
+	}
+
+}

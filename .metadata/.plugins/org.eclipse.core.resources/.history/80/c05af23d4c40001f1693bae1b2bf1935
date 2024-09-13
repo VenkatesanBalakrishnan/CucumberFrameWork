@@ -1,0 +1,40 @@
+package TestNGPackage;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import pages.FaceBookLoginPage;
+import smokeTesting.TC01_SmokeTesting;
+import webDriverFactorypackage.WebDriverFactory;
+
+
+public class AssertionExample {
+	
+	 
+	WebDriver driver;
+	 
+@Test()
+	public void loginfaceBook() throws IOException {
+		
+		driver= WebDriverFactory.driverLaunch();
+		driver.get("https://www.facebook.com/");
+		FaceBookLoginPage faceBookLoginPage = new FaceBookLoginPage(driver);
+		WebElement txtLoginHeader =driver.findElement(By.xpath("//button[text()='Log in']"));
+		Assert.assertTrue(txtLoginHeader.isDisplayed(), "Element is visible");
+		faceBookLoginPage.verifyLoginHeader(driver);
+		faceBookLoginPage.loginprocess(driver,"jkvjf","jkbgyfdtud");
+	}
+	
+
+
+	}
+	
+	
+
+

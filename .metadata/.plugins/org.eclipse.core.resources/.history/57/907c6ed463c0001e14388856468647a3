@@ -1,0 +1,37 @@
+package practiceAtOffice;
+
+public class ControlDemo {
+	
+	String proof ="Ration";
+	
+	
+	public void proofCheck()
+	{
+	switch(proof)
+	{
+	case("Pan"):
+	System.out.println(proof + " is an volid proof for bank account opening");
+	break;
+	case("Ration"):
+	System.out.println(proof + " is an volid proof for bank account opening");
+	break;
+	case("Aadhar"):
+	System.out.println(proof + " is an volid proof for bank account opening");
+	break;
+	default:
+	
+		System.out.println(proof + " is an volid proof for bank account opening");
+	break;
+	
+	}
+	
+}
+	
+	public static void main(String[]args)
+	{
+		ControlDemo e = new ControlDemo();
+		e.proofCheck();
+		
+	}
+
+}

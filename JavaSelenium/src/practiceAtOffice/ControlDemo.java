@@ -1,0 +1,35 @@
+package practiceAtOffice;
+
+public class ControlDemo {
+	
+	int num=1;
+	
+	public void oddEven()
+	{
+		while(num<=50)
+		{
+			if(num%2==0)
+			{
+				System.out.println(num + ("  Is an Even Number"));
+			}
+			else
+			{
+				System.out.println(num + ("Is an Odd Number"));
+		}
+		
+		num++;
+		}
+	}
+	
+
+	
+	public static void main(String[]args)
+	{
+		ControlDemo e = new ControlDemo();
+		e.oddEven();
+		
+	
+		
+	}
+
+}

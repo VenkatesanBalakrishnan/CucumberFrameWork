@@ -1,0 +1,22 @@
+package practiceAtOffice;
+
+public class FriendHouse1 {
+	
+	
+	private int lockerAmt=1000;
+	
+	
+	public int getter()
+	{
+		return lockerAmt;
+	}
+	public void setter()
+	{
+		
+	}
+
+	
+		
+	}
+
+

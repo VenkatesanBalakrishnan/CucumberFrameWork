@@ -1,0 +1,32 @@
+package SeleniumJava;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class LaunchBrowser {
+	
+	public static void main(String[] args) {
+		
+WebDriverManager.edgedriver().setup();
+//System.setProperty("webDriver.edge.driver","C:\\Users\\612387094\\Downloads\\edgedriver_win64");
+WebDriver driver = new EdgeDriver();
+		
+		driver.navigate().to("https://accounts.google.com/");
+		
+		driver.manage().window().maximize();
+		
+		driver.get("https://www.amazon.in/");
+		
+		driver.navigate().back();
+		driver.manage().window().maximize();
+		driver.navigate().forward();
+		driver.manage().window().minimize();
+		driver.navigate().refresh();
+		driver.manage().window().maximize();
+
+	}
+
+}

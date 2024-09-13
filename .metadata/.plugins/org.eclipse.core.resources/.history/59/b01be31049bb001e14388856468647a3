@@ -1,0 +1,23 @@
+package practiceAtOffice;
+
+public class FirstProgram {
+	
+	int var1 = 10;
+	int var2=22;
+	
+	public void FirstCode()
+	{
+		System.out.println("Welcome to Prgram");
+		
+	}
+	public static void main(String[] args) {
+		
+		
+		FirstProgram F = new FirstProgram();
+		
+		F.FirstCode();
+	
+		
+	}
+
+}

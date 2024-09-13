@@ -1,0 +1,31 @@
+package practiceAtOffice;
+
+public class ControlDemo {
+	
+	int num1=88;
+	int num2=24;
+	
+	public void divisbleCheck()
+	{
+		if(num1%8==0)
+		{
+			System.out.println(num1 + " is divisible by 8");
+			
+			if(num1%6==0)
+			{
+				System.out.println(num1 + "is divisible by 6");
+				if(num1%3==0)
+				{
+					System.out.println(num1 + "is divisible by 3");
+				}}
+		}
+	}
+	
+	public static void main(String[]args)
+	{
+		ControlDemo e = new ControlDemo();
+		e.divisbleCheck();
+		
+	}
+
+}

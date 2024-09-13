@@ -1,0 +1,36 @@
+package list;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<Object> a1 = new ArrayList<>();
+		
+		a1.add("Venkat");
+		a1.add(null);
+		a1.add("Venakt");
+		a1.add(null);
+		a1.add(1234);
+		
+		System.out.println(a1);
+		
+		a1.add("sathya");
+		a1.add(3, "Pavithra");
+		a1.contains("sathya");
+		System.out.println(a1.contains("sathya"));
+		System.out.println(a1.indexOf(1234));
+		System.out.println(a1.lastIndexOf(null));
+		System.out.println(a1.remove(4));
+		a1.remove(null);
+		System.out.println(a1);
+		System.out.println(a1.get(2));
+		System.out.println(a1.set(1, "Venkatesh"));
+		System.out.println(a1);
+		System.out.println(a1.isEmpty());
+		System.out.println(a1.size());
+		
+	}
+
+}

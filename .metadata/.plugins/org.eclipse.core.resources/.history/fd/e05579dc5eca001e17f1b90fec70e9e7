@@ -1,0 +1,19 @@
+package practiceAtOffice;
+
+public class VenHouse {
+	
+	public static void main(String[]args)
+	{
+		VicHouse f = new VicHouse();
+ System.out.println(f.gett());
+ 
+ f.sett(20); // set
+	
+	System.out.println(f.gett()); //get
+	
+ 
+
+		
+	}
+
+}

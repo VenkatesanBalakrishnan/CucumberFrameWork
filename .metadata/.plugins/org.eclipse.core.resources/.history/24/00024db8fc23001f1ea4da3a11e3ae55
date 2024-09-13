@@ -1,0 +1,23 @@
+package smokeTesting;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+
+import webDriverFactorypackage.WebDriverFactory;
+
+public class BestSellerSuite extends WebDriverFactory{
+	
+	static WebDriver driver;
+	
+	public static WebDriver main(String[] args) throws IOException {
+		
+		BestSellerSuite bestSellerSuite = new BestSellerSuite();
+		
+		bestSellerSuite.driverLaunch();
+		driver.get("https://www.amazon.in/");
+		return driver;
+		
+	}
+
+}

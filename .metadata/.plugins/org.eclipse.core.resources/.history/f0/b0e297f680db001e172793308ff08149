@@ -1,0 +1,31 @@
+package interfaceDemo;
+
+public class SonHouse implements FatherHouse{
+	
+	public void ktmBike()
+	{
+		System.out.println("This is Son's KTM BIke");
+	}
+	public void dukeBike()
+	{
+		System.out.println("This is Son's Duke Bike");
+	}
+	
+	public void inovaCar()
+	{
+		System.out.println("This is Father's Inova car");
+	}
+	public void audiaCar()
+	{
+		System.out.println("This is Father's Audi car");
+	}
+	
+	public static void main(String[] args) {
+		
+		SonHouse s = new SonHouse();
+		s.ktmBike();
+		s.dukeBike();
+		
+	}
+
+}

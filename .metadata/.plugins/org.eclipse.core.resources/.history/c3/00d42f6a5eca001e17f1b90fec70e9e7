@@ -1,0 +1,20 @@
+package practiceAtOffice;
+
+public class VicHouse {
+	
+	private int lockerAmt=20000;
+	
+	
+	public int gett()
+	{
+		
+		return lockerAmt;
+		
+	}
+	
+	public void sett(int lockerAmt)
+	{
+		return; 
+	}
+
+}

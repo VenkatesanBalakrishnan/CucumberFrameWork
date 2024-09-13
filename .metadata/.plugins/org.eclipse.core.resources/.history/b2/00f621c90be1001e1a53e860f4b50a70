@@ -1,0 +1,32 @@
+package practice;
+
+public class StringDemo {
+	
+	
+	String s1=("Oranium Tech");
+	String s2=("Java Programing");
+	String s3 =("Java Programing");
+	String s4= ("No 19, Krishna Street Irumbuliyur Chennai-600045");
+	
+	public void printString()
+	{
+		System.out.println(s1);
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+		System.out.println(s3.hashCode());
+		
+		System.out.println("String pre defined methods");
+		
+		System.out.println(s1.hashCode());//adress
+		System.out.println(s1.toUpperCase());//lower to uppercase
+		System.out.println(s1.toLowerCase()); // upper to lowercase
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		StringDemo s = new StringDemo();
+		s.printString();
+	}
+
+}

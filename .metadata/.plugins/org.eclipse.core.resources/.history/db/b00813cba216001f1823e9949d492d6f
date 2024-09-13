@@ -1,0 +1,24 @@
+package set;
+
+import java.util.HashSet;
+
+public class HashSetDemo {
+	
+	
+	public static void main(String[] args) {
+		
+		HashSet<Object> h1 = new HashSet<>();
+		
+		h1.add("Hello Good Evening");
+		h1.add("From Venkat");
+		h1.add("Pavi");
+		h1.add("Pavi");
+		h1.add(null);
+		h1.add(null);
+		h1.add(33);
+		h1.add(55);
+		
+		System.out.println(h1);
+	}
+
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerLoginClass" project="CucumberFrameWork" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="RunnerClass.RunnerLoginClass" time="0.082">
+    <testsuite name="Title of your feature" time="0.082">
+      <testcase name="Login as a invalid user and verify error message #1" classname="Title of your feature" time="0.074"/>
+      <testcase name="Login as a invalid user and verify error message #2" classname="Title of your feature" time="0.005"/>
+      <testcase name="Login as a invalid user and verify error message #3" classname="Title of your feature" time="0.003"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,25 @@
+package TestNGPackage;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import webDriverFactorypackage.WebDriverFactory;
+
+
+public class DataProviderExampl {
+	
+	 WebDriver driver;
+	 
+	@Test
+	public void loginfaceBook(WebDriver drive) throws IOException {
+		
+		WebDriverFactory webDriverFactory = new WebDriverFactory();
+		
+		driver=webDriverFactory.driverLaunch();
+		
+
+	}
+
+}

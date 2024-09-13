@@ -1,0 +1,23 @@
+package practiceAtOffice;
+
+public class LoopsDemo {
+	
+	int num1=2;
+	
+	public void printNumber()
+	{
+		while(num1<=10)
+		{
+			System.out.println(num1);
+			num1++;
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		LoopsDemo l = new LoopsDemo();
+		l.printNumber();
+		
+	}
+
+}

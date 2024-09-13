@@ -1,0 +1,30 @@
+package abstractDemo;
+
+public class SonHouse extends FatherHouse{
+	
+	
+	public void ktmBike()
+	{
+		System.out.println("This is Son's KTM BIke");
+		
+	}
+	
+	public void inovaCar()
+	{
+		
+	}
+	
+	public void audiCar()
+	{
+		System.out.println("This is Father's Audi");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		SonHouse s = new SonHouse();
+		s.ktmBike();
+		s.audiCar();
+	}
+
+}

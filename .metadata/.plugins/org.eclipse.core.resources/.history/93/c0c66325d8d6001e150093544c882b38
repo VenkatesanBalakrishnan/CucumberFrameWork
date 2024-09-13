@@ -1,0 +1,22 @@
+package practiceAtOffice;
+
+public class ArrayDemo2 {
+	
+	int arr[]= {22,77,99,76,44};
+	int tarr[][]= {{22,33,44},
+			       {55,66,77},
+			       {88,99,11}};
+	
+	
+public void printArray()
+{
+	System.out.println(tarr[1][1]);
+	
+	}
+
+public static void main(String[] args) {
+	ArrayDemo2 a = new ArrayDemo2();
+	a.printArray();
+}
+
+}

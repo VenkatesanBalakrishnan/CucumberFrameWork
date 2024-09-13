@@ -1,0 +1,25 @@
+package polymorphism;
+
+public class SonHouse extends FatherHouse {
+	
+	
+	public void ktmBike()
+	{
+		System.out.println("This is Son's KTM Bike");
+	}
+	public void audiCar()
+	{
+		System.out.println("This is Son'Audi Car");
+	}
+	
+	public static void main(String[] args) {
+		
+		FatherHouse f1 = new SonHouse();// Upcasting converting child object to father's object
+	
+		//f1.ktmBike();//It won't work because it don't know the KTM
+		f1.inovaCar();//father
+		f1.audiCar(); //son
+		
+	}
+
+}

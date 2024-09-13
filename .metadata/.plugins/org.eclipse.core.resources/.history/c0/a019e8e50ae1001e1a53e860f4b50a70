@@ -1,0 +1,25 @@
+package practice;
+
+public class StringDemo {
+	
+	
+	String s1=("Oranium Tech");
+	String s2=("Java Programing");
+	String s3 =("Java Progaraming");
+	String s4= ("No 19, Krishna Street Irumbuliyur Chennai-600045");
+	
+	public void printString()
+	{
+		System.out.println(s1);
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+		System.out.println(s3.hashCode());
+	}
+	
+	public static void main(String[] args) {
+		
+		StringDemo s = new StringDemo();
+		s.printString();
+	}
+
+}

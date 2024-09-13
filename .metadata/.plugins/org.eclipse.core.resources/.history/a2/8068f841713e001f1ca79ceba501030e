@@ -1,0 +1,40 @@
+package TestNGPackage;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import pages.FaceBookLoginPage;
+import webDriverFactorypackage.WebDriverFactory;
+
+
+public class DataProviderExampl {
+	
+	 WebDriver driver;
+	 
+	@Test(dataProvider="LoginfaceBookDP")
+	public void loginfaceBook(WebDriver driver,String text,String PWD) throws IOException {
+		
+		driver= WebDriverFactory.driverLaunch();
+		driver.get("https://www.facebook.com/");
+		
+		FaceBookLoginPage faceBookLoginPage = new FaceBookLoginPage(driver);
+		
+		faceBookLoginPage.loginprocess(driver,text,PWD);
+	
+	}
+	@DataProvider(name="LoginfaceBookDP")
+	public Object[][] loginCredantial() {
+		
+		Object data[][]= {{"venkathgjc","giubnj23"},
+						{"godjkhuj","jbhbkn17756"},
+						{"evilukgvy","bhftuvb67857"}};
+						return data;				
+}
+	}
+	
+	
+
+

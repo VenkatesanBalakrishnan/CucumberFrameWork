@@ -1,0 +1,31 @@
+package practiceAtOffice;
+
+public class demoMethod {
+	
+	int num1=10;
+	int num2=4;
+	
+	public void addition()// wor and wop
+	{
+		System.out.println(num1+num2);
+	}
+	
+	public void division(int a,int b)// wor and wp
+	{
+		System.out.println(a-b);
+	}
+	
+	public int multiplication()// wr and wop
+	{
+		return num1*num2;
+	}
+	
+	public static void main(String[] args) {
+		
+		demoMethod d = new demoMethod();
+		d.addition();
+		d.division(200,100);
+		d.multiplication();
+	}
+
+}

@@ -1,0 +1,11 @@
+package practiceAtOffice;
+
+public class VickyHouse {
+	
+	private int lockerAmt=500;
+
+	
+		
+	}
+
+

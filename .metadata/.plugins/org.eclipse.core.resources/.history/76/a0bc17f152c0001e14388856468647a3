@@ -1,0 +1,17 @@
+package practiceAtOffice;
+
+public class FirstProgram {
+	
+	
+	public void firstProgram()
+	{
+		System.out.println("Beter days coming");
+	}
+	public static void main(String[]args)
+	{FirstProgram f = new FirstProgram();
+	
+	f.firstProgram();
+	}
+	
+	
+}

@@ -1,0 +1,7 @@
+package practiceAtOffice;
+
+public class VicHouse {
+	
+	int lockerAmt=30000;
+
+}

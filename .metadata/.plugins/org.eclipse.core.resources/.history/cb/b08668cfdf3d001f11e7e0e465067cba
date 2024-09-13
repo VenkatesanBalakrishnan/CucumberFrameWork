@@ -1,0 +1,31 @@
+package TestNGPackage;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import pages.FaceBookLoginPage;
+import webDriverFactorypackage.WebDriverFactory;
+
+
+public class DataProviderExampl {
+	
+	 WebDriver driver;
+	 
+	@Test
+	public void loginfaceBook() throws IOException {
+		
+		driver=WebDriverFactory.driverLaunch();
+		driver.get("https://www.facebook.com/");
+		
+		FaceBookLoginPage faceBookLoginPage = new FaceBookLoginPage(driver);
+		faceBookLoginPage.enterID(driver, "venklguig");
+		faceBookLoginPage.enterPWD(driver, "sljklagiugc");
+		faceBookLoginPage.clickSubmit(driver);
+		
+	}
+	
+	
+
+}

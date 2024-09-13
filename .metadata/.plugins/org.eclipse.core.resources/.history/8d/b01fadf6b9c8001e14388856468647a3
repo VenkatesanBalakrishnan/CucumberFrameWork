@@ -1,0 +1,16 @@
+package practiceAtOffice;
+
+public class MyHouse {
+	
+	public static void main(String[] args) {
+		
+		FriendHouse f = new FriendHouse();
+		
+		System.out.println(f.lockerAmt);
+		
+		int lockerAmt=2000;
+		System.out.println(lockerAmt);
+		
+	}
+
+}

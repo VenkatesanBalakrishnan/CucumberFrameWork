@@ -1,0 +1,23 @@
+package set;
+
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+	
+	public static void main(String[] args) {
+		
+		TreeSet<Object> h = new TreeSet<>();
+		
+		h.add("Good");
+		h.add("Bad");
+		h.add("Good");
+		
+		
+		System.out.println(h);
+		
+	}
+	
+	
+	
+
+}

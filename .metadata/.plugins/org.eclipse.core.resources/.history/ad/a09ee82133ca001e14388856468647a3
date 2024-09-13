@@ -1,0 +1,13 @@
+package practiceAtOffice;
+
+public class MyHouse1 {
+	
+	
+	public static void main(String[] args) {
+		
+	FriendHouse1 f = new FriendHouse1();
+	f.get();
+		
+	}
+
+}

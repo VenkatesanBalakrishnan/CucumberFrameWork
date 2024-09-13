@@ -1,0 +1,49 @@
+package practice;
+
+public class StringDemo {
+	
+	
+	String s1=("Oranium Tech");
+	String s2=("Java Programing");
+	String s3 =("Java Programing");
+	String s5=("  venkat  ");
+	String s4= ("No 19, Krishna Street Irumbuliyur Chennai-600045");
+	
+	public void printString()
+	{
+		System.out.println(s1);
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+		System.out.println(s3.hashCode());
+		
+		System.out.println("String pre defined methods");
+		
+		System.out.println(s1.hashCode());//adress
+		System.out.println(s1.toUpperCase());//lower to uppercase
+		System.out.println(s1.toLowerCase()); // upper to lowercase
+		System.out.println(s1.isEmpty());// check if it's empty
+		System.out.println(s1.equals("Oranium Tech"));//check given word are equal
+		System.out.println(s1.equalsIgnoreCase("ORANIUM TECH")); // check given word are equal and ignore case
+		System.out.println(s1.startsWith("Oran")); // check the starting char are same
+		System.out.println(s1.endsWith("Tech"));//  check the starting char are same
+		System.out.println(s5.trim());// trim the empty spaces in start and end area
+		System.out.println(s1.length()); // it will return the length of the string
+		System.out.println(s1.charAt(4)); //it returns char at particular index
+		System.out.println(s1.indexOf("i")); //it returns index of particular char
+		System.out.println(s2.lastIndexOf("a"));// it returns las index of particular char
+		System.out.println(s1.contains("Tech"));// it check given char contins or not
+		System.out.println(s2.concat(" Great")); // it join(concat) string
+		System.out.println(s2.substring(5)); // sub the string with given beg index
+		System.out.println(s2.substring(5, 8));// sub the string with help of given beg and end index
+		System.out.println(s2.replace("Java", "C++")); // replace existing to new char
+		System.out.println(s2.replaceAll("[A-Z],[a-z]", "0"));
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		StringDemo s = new StringDemo();
+		s.printString();
+	}
+
+}

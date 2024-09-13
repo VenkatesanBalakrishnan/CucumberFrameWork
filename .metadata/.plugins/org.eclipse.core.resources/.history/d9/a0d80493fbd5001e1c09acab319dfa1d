@@ -1,0 +1,11 @@
+package practiceAtOffice;
+
+public class VenkatHouse {
+	
+	public static void main(String[] args) {
+		
+		VickyHouse v = new VickyHouse();
+		v.lockerAmt();
+	}
+
+}

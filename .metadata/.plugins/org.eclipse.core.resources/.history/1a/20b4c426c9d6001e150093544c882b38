@@ -1,0 +1,16 @@
+package practiceAtOffice;
+
+public class VickyHouse {
+
+	private int lockerAmt=10000;
+
+	public int getLockerAmt() {
+		return lockerAmt;
+	}
+
+	public void setLockerAmt(int lockerAmt) {
+		this.lockerAmt = lockerAmt;
+	}
+	
+	
+}

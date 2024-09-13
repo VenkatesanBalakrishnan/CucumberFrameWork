@@ -1,0 +1,37 @@
+package map;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Set;
+
+public class HashMapDemo {
+	
+	public static void main(String[] args) {
+		
+		HashMap<String,Integer> h1 = new HashMap<>();
+		
+		h1.put("Tamil", 99);
+		h1.put("English", 50);
+		h1.put("Maths", 60);
+		h1.put("Computer Scince", 60);
+		h1.put(null, null);
+		h1.put("English", 56);
+		
+		System.out.println(h1);	
+		
+		Set<String> KS = h1.keySet();
+		
+		for(String k : KS)
+		{
+			System.out.println(k);
+		}
+		
+		Collection<Integer> VL = h1.values();
+		
+		for(Integer k : VL)
+		{
+			System.out.println(k);
+		}
+	}
+
+}

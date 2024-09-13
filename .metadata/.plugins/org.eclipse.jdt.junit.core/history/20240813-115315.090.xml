@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerLoginClass" project="CucumberFrameWork" tests="3" started="3" failures="0" errors="3" ignored="0">
+  <testsuite name="RunnerClass.RunnerLoginClass" time="0.109">
+    <testsuite name="Title of your feature" time="0.109">
+      <testcase name="Login as a invalid user and verify error message #1" classname="Title of your feature" time="0.098">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Click on Next button' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("Click on Next button")
+public void click_on_next_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Login as a invalid user and verify error message #2" classname="Title of your feature" time="0.004">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Click on Next button' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("Click on Next button")
+public void click_on_next_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Login as a invalid user and verify error message #3" classname="Title of your feature" time="0.003">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Click on Next button' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("Click on Next button")
+public void click_on_next_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

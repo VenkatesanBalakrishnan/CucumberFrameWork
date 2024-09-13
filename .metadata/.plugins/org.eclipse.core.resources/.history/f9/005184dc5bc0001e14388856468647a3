@@ -1,0 +1,21 @@
+package practiceAtOffice;
+
+public class ControlDemo {
+	
+	int num1=12;
+	int num=22;
+	
+	public void evenCheck()
+	{
+		if(num1%2==0)
+		{
+			System.out.println("Even Number");
+		}
+	}
+	public static void main(String[]args)
+	{
+		ControlDemo e = new ControlDemo();
+		e.evenCheck();
+	}
+
+}

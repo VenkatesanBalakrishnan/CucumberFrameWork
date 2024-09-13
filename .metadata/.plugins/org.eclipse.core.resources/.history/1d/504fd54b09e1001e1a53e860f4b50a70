@@ -1,0 +1,38 @@
+package practice;
+
+public class ArrayDemo {
+	
+	int arr[]= {22,33,45,78,76};
+	
+	int tarr[][]= {{22,34,56},
+			       {34,86,90,88,90},
+			       {11,13,16}};
+	
+	public void printArray()
+	{
+		System.out.println(arr);
+		System.out.println(arr[3]);
+		//System.out.println(arr[8]);
+		System.out.println("Iterating using normal for loop");
+		
+	
+		
+		System.out.println("Iterating 2D Array Using normal for loop");
+		
+		for(int row =0; row<=tarr.length;row++)
+		{
+			for(int col=0; col<tarr[row].length;col++)
+			{
+				System.out.print(tarr[row][col]+  " ");
+			}
+			System.out.println();
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		ArrayDemo a = new ArrayDemo();
+		a.printArray();
+	}
+
+}

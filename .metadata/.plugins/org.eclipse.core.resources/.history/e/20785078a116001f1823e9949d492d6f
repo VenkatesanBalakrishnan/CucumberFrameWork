@@ -1,0 +1,21 @@
+package map;
+
+import java.util.HashMap;
+
+public class HashMapDemo {
+	
+	public static void main(String[] args) {
+		
+		HashMap<String,Integer> h1 = new HashMap<>();
+		
+		h1.put("Tamil", 99);
+		h1.put("English", 50);
+		h1.put("Maths", 60);
+		h1.put("Computer Scince", 60);
+		h1.put(null, null);
+		h1.put("English", 56);
+		
+		System.out.println(h1);	
+	}
+
+}

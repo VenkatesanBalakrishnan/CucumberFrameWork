@@ -1,0 +1,25 @@
+package practice;
+
+public class DaughterHouse extends FatherHouse{
+	
+	
+	public void scooty()
+	{
+		System.out.println("This is Daughter's Scooty");
+	}
+	
+	public void ladybirdcycle()
+	{
+		System.out.println("This is Daughter's Ladybird Cycle");
+	}
+
+	
+	public static void main(String[] args) {
+		
+		DaughterHouse d = new DaughterHouse();
+		d.scooty();
+		d.ladybirdcycle();
+		d.audiCar();
+		d.inovaCar();
+	}
+}

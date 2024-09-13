@@ -1,0 +1,19 @@
+package practiceAtOffice;
+
+public class FirstProgram {
+	
+	int var1=10;
+	int var2=20;
+	
+	public void firstProgram()
+	{
+		System.out.println(var1+var2);
+	}
+	public static void main(String[]args)
+	{FirstProgram f = new FirstProgram();
+	
+	f.firstProgram();
+	}
+	
+	
+}

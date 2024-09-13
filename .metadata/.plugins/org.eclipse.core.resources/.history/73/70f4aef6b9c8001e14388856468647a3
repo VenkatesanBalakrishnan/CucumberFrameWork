@@ -1,0 +1,9 @@
+package practiceAtOffice;
+
+public class FriendHouse {
+	
+	private int lockerAmt=500;
+	
+
+
+}

@@ -1,0 +1,13 @@
+package practiceAtOffice;
+
+public class VenkatHouse {
+	
+	public static void main(String[] args) {
+		
+		VickyHouse v = new VickyHouse();
+		System.out.println(v.getLockerAmt());
+		v.setLockerAmt(45000);
+		System.out.println(v.getLockerAmt());
+	}
+
+}

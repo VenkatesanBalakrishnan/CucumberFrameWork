@@ -1,0 +1,15 @@
+package practiceAtOffice;
+
+public class FriendHouse1 {
+	
+	
+	int lockerAmt=1000;
+
+	public void getter()
+	{
+		System.out.println(lockerAmt);
+	}
+		
+	}
+
+

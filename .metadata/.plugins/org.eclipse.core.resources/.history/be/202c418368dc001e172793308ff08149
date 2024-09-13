@@ -1,0 +1,41 @@
+package interfaceDemo;
+
+public class SonHouse implements FatherHouse, MotherHouse{
+	
+	public void ktmBike()
+	{
+		System.out.println("This is Son's KTM BIke");
+	}
+	public void dukeBike()
+	{
+		System.out.println("This is Son's Duke Bike");
+	}
+	
+	public void invoCar()
+	{
+		System.out.println("This is Father's Inova car");
+	}
+	public void audiCar()
+	{
+		System.out.println("This is  Audi car");
+	}
+	
+	public void goldJwels()
+	{
+		System.out.println("This is Mother's Audi car");
+	}
+	
+	public static void main(String[] args) {
+		
+		SonHouse s = new SonHouse();
+		s.ktmBike();
+		s.dukeBike();
+		System.out.println(s.money); // we can only get the data
+		//money= 15; // can't modify the data
+		s.invoCar();
+		s.audiCar();
+		
+		
+	}
+
+}

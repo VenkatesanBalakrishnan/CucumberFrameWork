@@ -1,0 +1,33 @@
+package practiceAtOffice;
+
+public class ArrayDemo {
+	
+	int arr[]= {22,35,64,43,89};
+	
+	
+	public void printArray()
+	{
+		//System.out.println(arr);// Throw address
+		//System.out.println(arr[2]);//64
+		//System.out.println(arr[6]); // ArrayIndexOutOfBoundsException
+		
+		System.out.println("Itreating array using normal for loop");
+		
+		for(int i=0;i<5;i++)
+		{
+			System.out.println(arr[i]);
+			
+		}
+		System.out.println("Reversing an array");
+		
+		for(int i=4;i<=0;i--)
+		{
+			System.out.println(arr[i]);
+		}
+	}
+
+	public static void main(String[] args) {
+		ArrayDemo a = new ArrayDemo();
+		a.printArray();
+	}
+}

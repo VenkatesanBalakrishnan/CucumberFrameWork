@@ -1,0 +1,36 @@
+package practiceAtOffice;
+
+public class ControlDemo {
+	
+	int num1=22;
+	
+	
+	public void gradeCheck()
+	{
+	if(num1>=80)
+	{
+		System.out.println("Garde A");
+	}
+	else if (num1>=60)
+	{
+		System.out.println("Grade B");
+	}
+	else if(num1>=30)
+	{
+		System.out.println("Grade C");
+	}
+	else
+	{
+		System.out.println("Fail");
+	}
+	
+	}
+	
+	public static void main(String[]args)
+	{
+		ControlDemo e = new ControlDemo();
+		e.gradeCheck();
+		
+	}
+
+}

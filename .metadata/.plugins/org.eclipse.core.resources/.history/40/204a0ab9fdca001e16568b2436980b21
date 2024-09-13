@@ -1,0 +1,18 @@
+package practiceAtOffice;
+
+public class VicHouse {
+	
+	private int lockerAmt=30000;
+	
+	
+	public int gettingAmt()
+	{
+		return lockerAmt;
+	}
+	
+	public void setting(int lockerAmt)
+	{
+		lockerAmt=lockerAmt;
+	}
+
+}

@@ -1,0 +1,16 @@
+package practice;
+
+public class DaughterHouse {
+	
+	
+	public void scooty()
+	{
+		System.out.println("This is Daughter's Scooty");
+	}
+	
+	public void ladybirdcycle()
+	{
+		System.out.println("This is Daughter's Ladybird Cycle");
+	}
+
+}

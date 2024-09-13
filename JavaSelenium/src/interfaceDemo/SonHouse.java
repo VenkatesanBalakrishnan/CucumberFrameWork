@@ -1,0 +1,35 @@
+package interfaceDemo;
+
+public class SonHouse extends FatherHouse{
+	
+	public void ktmBike()
+	{
+		System.out.println("This is Son's KTM BIke");
+	}
+	public void dukeBike()
+	{
+		System.out.println("This is Son's Duke Bike");
+	}
+	
+	public void invoCar()
+	{
+		System.out.println("This is Father's Inova car");
+	}
+	
+	public void audiCar()
+	{
+		System.out.println("This is Father's Audi car");
+	}
+
+	public static void main(String[] args) {
+		
+		SonHouse s = new SonHouse();
+		s.ktmBike(); // own
+		s.dukeBike(); // own
+		s.invoCar(); // Father
+		s.audiCar(); //Father
+		
+		
+	}
+
+}

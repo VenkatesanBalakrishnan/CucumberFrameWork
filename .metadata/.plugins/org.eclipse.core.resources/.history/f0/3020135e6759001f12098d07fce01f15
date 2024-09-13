@@ -1,0 +1,19 @@
+
+Feature: Grouping feature
+
+ 
+  	Scenario: Regression scenario
+    Given Regression Test Feature
+    
+    Scenario: Smoke scenario
+    Given Regression Test Feature
+    
+    Scenario: Regression scenario
+    Given Smoke Test Feature
+    
+    Scenario: Sanity scenario
+    Given Sanity Test Feature
+    
+    Scenario: RegressionSanity scenario
+    Given RegressionSanity Test Feature
+    

@@ -1,0 +1,45 @@
+package practiceAtOffice;
+
+public class StringDemo {
+	
+	String s1 =("Oranium Tech");
+	String s2=("  Java Programing  ");
+	String s3= ("Java Programing");
+	
+	public void printString()
+	{
+		System.out.println(s1);
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+		System.out.println(s3.hashCode());
+		
+		System.out.println("Pre defined String methods");
+		
+		System.out.println(s1.hashCode());
+		System.out.println(s1.toUpperCase());
+		System.out.println(s1.toLowerCase());
+		System.out.println(s1.contains("ran"));
+		System.out.println(s1.isEmpty());
+		System.out.println(s1.equals("Oranium tech"));
+		System.out.println(s1.equalsIgnoreCase("Oranium tech"));
+		System.out.println(s1.endsWith("ch"));
+		System.out.println(s1.startsWith("Oran"));
+		System.out.println(s1.length());
+		System.out.println(s2.trim());
+		System.out.println(s1.charAt(3));
+		System.out.println(s1.indexOf("n"));
+		System.out.println(s1.lastIndexOf("n"));
+		System.out.println(s1.concat(" Session"));
+		System.out.println(s1.substring(8));
+		System.out.println(s1.substring(0, 8));
+		
+		System.out.println("String using loops with charAt, tocharArray and Split methods");
+		
+	}
+	public static void main(String[] args) {
+		
+		StringDemo s = new StringDemo();
+		s.printString();
+	}
+
+}

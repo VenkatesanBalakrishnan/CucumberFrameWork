@@ -1,0 +1,17 @@
+package practiceAtOffice;
+
+public class VenHouse {
+	
+	public static void main(String[]args)
+	{
+		VicHouse f = new VicHouse();
+		
+System.out.println(f.lockerAmt);
+
+f.lockerAmt=3000;
+
+System.out.println(f.lockerAmt);
+		
+	}
+
+}
